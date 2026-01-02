@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2025-12-26T12:15:26.572940" rpa="false" schemaversion="5">
+<suite id="s1" name="Valid Tests" source="D:\SWEn\Lab4\TestAutomationLab\Tests\valid_tests.robot">
+<test id="s1-t1" name="Open Workshop Registration Page" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-26T12:15:27.604920" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7272/Lab4/Registration.html'.</msg>
+<msg time="2025-12-26T12:15:39.277509" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-12-26T12:15:39.277953" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-12-26T12:15:27.603308" elapsed="11.851724">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</status>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<arg>Workshop Registration</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:39.456686" elapsed="0.000081"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Workshop Registration</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:39.457168" elapsed="0.000058"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>openworkshope_reg_valid.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:39.457593" elapsed="0.000058"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:39.458009" elapsed="0.000057"/>
+</kw>
+<doc>เปิดหน้า Workshop Registration</doc>
+<status status="FAIL" start="2025-12-26T12:15:27.601292" elapsed="11.857245">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</status>
+</test>
+<test id="s1-t2" name="Register Success Lab4" line="17">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-26T12:15:39.474021" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7272/Lab4/Registration.html'.</msg>
+<msg time="2025-12-26T12:15:47.353108" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-12-26T12:15:47.353467" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-12-26T12:15:39.473552" elapsed="7.882318">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</status>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=firstname</arg>
+<arg>Somyod</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.356546" elapsed="0.000115"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=lastname</arg>
+<arg>Sodsai</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.357147" elapsed="0.000063"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=organization</arg>
+<arg>CS KKU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.357523" elapsed="0.000049"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=email</arg>
+<arg>somyod@kkumail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.357963" elapsed="0.000054"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=phone</arg>
+<arg>091-001-1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.358409" elapsed="0.000053"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>Register</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.358858" elapsed="0.000053"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>have_org.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.359325" elapsed="0.000057"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<arg>Success</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.359779" elapsed="0.000217"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Success</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.360872" elapsed="0.000121"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Thank you for registering with us.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.361976" elapsed="0.000072"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>We will send a confirmation to your email soon.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.362397" elapsed="0.000052"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:47.362873" elapsed="0.000059"/>
+</kw>
+<doc>ลงทะเบียนสำเร็จ มี Organization</doc>
+<status status="FAIL" start="2025-12-26T12:15:39.471436" elapsed="7.892008">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</status>
+</test>
+<test id="s1-t3" name="Register Success No Organization" line="33">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-26T12:15:47.374063" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7272/Lab4/Registration.html'.</msg>
+<msg time="2025-12-26T12:15:55.950456" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-16.png"&gt;&lt;img src="selenium-screenshot-16.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-12-26T12:15:55.950834" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-12-26T12:15:47.373632" elapsed="8.580213">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</status>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=firstname</arg>
+<arg>Somyod</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.954530" elapsed="0.000104"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=lastname</arg>
+<arg>Sodsai</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.955954" elapsed="0.000131"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=email</arg>
+<arg>somyod@kkumail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.958342" elapsed="0.000112"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name=phone</arg>
+<arg>091-001-1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.958907" elapsed="0.000069"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>Register</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.959491" elapsed="0.000101"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>no_org.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.959965" elapsed="0.000055"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<arg>Success</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.960451" elapsed="0.000056"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Success</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.960860" elapsed="0.000054"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Thank you for registering with us.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.961539" elapsed="0.000080"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>We will send a confirmation to your email soon.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.961943" elapsed="0.000050"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-12-26T12:15:55.962284" elapsed="0.000048"/>
+</kw>
+<doc>ลงทะเบียนสำเร็จ ไม่กรอก Organization</doc>
+<status status="FAIL" start="2025-12-26T12:15:47.371201" elapsed="8.591721">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6814088e5
+	0x7ff681408940
+	0x7ff6811e165d
+	0x7ff6811de1dd
+	0x7ff6811ceb69
+	0x7ff6811d0974
+	0x7ff6811cf10f
+	0x7ff6811ce871
+	0x7ff6811ce5bd
+	0x7ff6811cc20a
+	0x7ff6811cc9f2
+	0x7ff6811e5950
+	0x7ff68128bad4
+	0x7ff681261fda
+	0x7ff68128ac97
+	0x7ff68122ac29
+	0x7ff68122ba93
+	0x7ff681720640
+	0x7ff68171af80
+	0x7ff6817396e6
+	0x7ff681425de4
+	0x7ff68142ed8c
+	0x7ff681412004
+	0x7ff6814121b5
+	0x7ff6813f7ee2
+	0x7ffbed5e7374
+	0x7ffbef5fcc91
+</status>
+</test>
+<status status="FAIL" start="2025-12-26T12:15:26.575864" elapsed="29.418093"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Valid Tests" id="s1" pass="0" fail="3" skip="0">Valid Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
